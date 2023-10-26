@@ -1,0 +1,158 @@
+body
+{
+margin:0px;
+padding: 0px;
+background-color: black;
+}
+.container
+{
+    overflow-x: hidden;
+}
+.container img{
+   height: 150vh;
+   width: 100%;
+}
+.bakground
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 150vh;
+    background-color: black;
+    opacity: 0.6;
+    background-size: cover;
+}
+#netflix_logo
+{
+    height: 120px;
+    width: 300px;
+    float: left;
+    /* margin-top:-50px; */
+}
+.netflix_entire_pages
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.netflix_entire_pages .middle_one
+{
+    margin-top:25vh; 
+    transform: translateX(80%);
+    width: 550px;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);  
+    /* opacity: 0.8;                          ; */
+}
+.netflix_entire_pages .middle_one h1
+{
+    color: white;
+    font-size: 3rem;
+    padding: 50px  0px 0px 100px;   
+    font-weight: 300;
+}
+.netflix_entire_pages .middle_one form{
+    display: flex;
+    flex-direction: column;
+    padding:0px 100px 0px 100px;
+}
+.netflix_entire_pages .middle_one form input
+{
+    height:8vh;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+    color: white;
+    padding-left: 20px;
+    background-color: rgb(53, 46, 46);
+    font-size: 20px;
+}
+.netflix_entire_pages .middle_one form button{
+    width: 100%;
+}
+.netflix_entire_pages .sign_in
+{
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    height:8vh;
+    border:none;
+    color: white;
+    background-color:#E50914;
+    width: 400px;
+
+}
+.remeber
+{
+    padding:20px 100px 10px 100px;
+}
+.extra
+{
+    margin-top:50px ;
+    padding:20px 100px 10px 100px;
+    /* padding:0px 100px 0px 100px ; */
+}
+.Extra_message
+{
+    padding:20px 100px 10px 100px;
+}
+
+.container5
+{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 30vh;
+    padding: 70px;
+}
+.container5 h2{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+.container5 .number{
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.lists
+{
+    padding-right: 100px;
+    display: flex;
+
+}
+.lists ul 
+{
+    margin-left: -100px;
+}
+.lists ul li{
+    list-style-type: none;
+    padding: 8px 70px 8px 70px;
+    margin-right: 60px;
+    
+}
+.lists ul li a{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    opacity: 0.5;
+    color: white;
+}
+#langauge
+{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="bakground"></div>
+        <img src="images/netflixbackground.jpg" alt="">
+    </div>
+    <div class="netflix_entire_pages">
+        <img src="images/logo.png" alt="" id="netflix_logo">
+
+        <div class="middle_one">
+           <h1>Sign In</h1>
+           <form id="form" autocomplete="on">
+            <input type="text" id="email"  placeholder="Email or Phone Number">
+            <input type="text" id="pass"   placeholder="Password">
+            <button class="sign_in" id="sign_in" type="submit">Sign In</button>
+           </form>
+
+           <div class="remeber">
+            <input type="checkbox" style="float: left;color: white;"><span style="color: white;float: left;opacity: 0.7;">Remeber Me</span>
+            <span  style="color: white;float: right;opacity: 0.7;">Need help ?</span>
+           </div>
+
+           <div class="extra">
+               <span style="color: white;font-size: 25px;">New to Netflix ?</span>
+                <a style="color: white;font-size: 25px;text-decoration: none;" href="index.html">Sign up now</a>
+           </div>
+
+           <div class="Extra_message">
+            <span style="color:white;opacity: 0.5;font-size: 15px;">This page is protected by Google reCAPTCHA to ensure you're not a bot. <span style="font-weight: bold;color: rgb(14, 227, 255);">Learn more.</span></span>
+           </div>
+        </div>
+    </div>
+    
+    <div class="container5">
+        <h2 style="opacity: 0.6;">Questions? Call <a href="" style="text-decoration: none;" class="number">000-800-919-1694</a></h2>
+        <div class="lists">
+            <ul>
+                <li><a href="https://help.netflix.com/en/node/412">FAQ</a></li>
+                <li><a href="https://devices.netflix.com/en/">Cookie Preferences </a></li> 
+            </ul>
+            <ul>
+                <li><a href="https://help.netflix.com/en/">Help Centre</a></li>
+                <li><a href="https://help.netflix.com/legal/corpinfo">Corporate Information</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://help.netflix.com/legal/termsofuse"> Terms of Use</a></li> 
+            </ul>
+             <ul>       
+             <li><a href="https://help.netflix.com/legal/privacy">Privacy </a></li>
+            </ul>
+        </div>
+
+        <select name="lang" id="langauge">
+            <option value="English"> English</option>
+            <option value="Hindi">Hindi</option>
+        </select>
+
+        <script src="signup.js"></script>
+    </div>
+</body>
+</html>
